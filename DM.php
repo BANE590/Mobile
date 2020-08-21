@@ -22,4 +22,5 @@ if($user == $username && $pass == $password)
         echo "Masukkan Pilihan : ";
         $menu = trim(fgets(STDIN));
         if($menu == 1)
+
 ?>
