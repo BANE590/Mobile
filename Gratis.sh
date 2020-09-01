@@ -44,17 +44,11 @@ lagi=1
 while [ $lagi -lt 6 ];
 do
 echo ""
-echo -e $b "1.  Nmap${enda}";
+echo -e $b "1.  Diamond-Mobile-Legends${endc}";
 echo -e "============================" | lolcat
-echo -e $r "2.  Admin-finder${endc}";
+echo -e $r "2.  Diamond-Freefire${endc}";
 echo -e "============================" | lolcat
-echo -e $g "3.  RED_HAWK${endc}";
-echo -e "============================" | lolcat
-echo -e $c "4   Lazymux${endc}";
-echo -e "============================" | lolcat
-echo -e $r"5.  Tools-X${endc}";
-echo -e "============================" | lolcat
-echo -e $r "6. Exit${endc}";
+echo -e $r "3. Exit${endc}";
 echo ""
 echo -e "╭─INTECT_" |lolcat
 read -p "╰─#" pil;
@@ -62,10 +56,7 @@ read -p "╰─#" pil;
 # Nmap
 
 case $pil in
-1) pkg install nmap
-echo -e  "${y} {1} Masukkan Web${endc}:"
-read web
-nmap $web
+1) 
 echo
 
 ;;
